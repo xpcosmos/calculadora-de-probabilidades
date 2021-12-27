@@ -30,4 +30,10 @@ Resgatando nosso exemplo anterior do lançamento de dados, caso joguemos o dado 
 
 # Tecnologias utilizadas.
 
-Para esse projeto vamos utilizar o as funções binomiais da biblioteca [Scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binom.html). Utilizaremos também a biblioteca [IPyWidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html) que irá nos possibilitar a criação de um formulário através de _notebooks_.
+Para esse projeto vamos utilizar o as funções binomiais da biblioteca [Scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binom.html). <br>
+Utilizaremos também a biblioteca [IPyWidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html) que irá nos possibilitar a criação de um formulário através de _notebooks_.
+
+# Projeto
+
+
+Vamos ao que interessa, o projeto.
