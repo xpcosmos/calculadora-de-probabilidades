@@ -73,8 +73,10 @@ Temos que:
 * _p_ é 1/4 ou 0.25
 * _k_ é 3
 * _n_ é 6
-* 
+
+### Resultado obtido:
 ![image](https://user-images.githubusercontent.com/85235525/147496603-711bb4a3-455c-4326-badd-a173a182d11c.png)
+### Resolução do professor:
 ![image](https://user-images.githubusercontent.com/85235525/147496627-716c756d-aeb8-4a98-b6a3-7dff0966882c.png)
 
 Nossa reposta bateu perfeitamente com o execício proposto pelo professor.
