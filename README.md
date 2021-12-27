@@ -33,7 +33,56 @@ Resgatando nosso exemplo anterior do lançamento de dados, caso joguemos o dado 
 Para esse projeto vamos utilizar o as funções binomiais da biblioteca [Scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binom.html). <br>
 Utilizaremos também a biblioteca [IPyWidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html) que irá nos possibilitar a criação de um formulário através de _notebooks_.
 
-# Projeto
+# Desenvolvimento
+
+Para começar o programa o usuário deve definir três parâmetros:
+
+![image](https://user-images.githubusercontent.com/85235525/147489383-85b5ec25-f4ab-4973-874e-9ca5a60a0521.png)
+
+* Quantidade de sucesso desejada *(P)*.
+* Número de ensaios *(n)*.
+* Probabilidade de sucesso *(k)*.
+
+## Tratamento de erro
+Supondo que o usuário esqueça de algum dos dados (vamos considerar que ele esquece alguma informação quando essa informação foi igual a *0*) então o programa irá avisar qual informação ele esquece e não irá rodar!<br>
+Utilizei _**try**_ e _**except**_ para previnir os erros.
+
+### Exemplo 1:
+
+![image](https://user-images.githubusercontent.com/85235525/147494548-2a6cd569-0e28-4b1f-89a4-f1d2e47a50a8.png)
+
+### Exemplo 2:
+
+![image](https://user-images.githubusercontent.com/85235525/147495281-0040f031-6eae-42e6-a282-e3901394d14e.png)
+
+## Rodando sem erros:
+
+Quando não temos erros, podemos ver expresso o resultado do cálculo!
+
+![image](https://user-images.githubusercontent.com/85235525/147495952-c9a056f1-082d-4cf9-a5d3-1c940eff385a.png)
+
+![image](https://user-images.githubusercontent.com/85235525/147496028-cb515e17-fbb8-4ab9-9b83-d59b47607d75.png)
+
+## Utilizando um exemplo prático:
+
+Extrai um exemplo de questão de probabilidade binomial de um [caderno de questões](https://www.ime.usp.br/~salles/fatec/estatistica/material_apoio/ExerciciosResolvidosBinomial.pdf) do [Instituto de matmática e estatística da USP](https://www.ime.usp.br/) para solucionarmos e compararmos a resposta
+
+![image](https://user-images.githubusercontent.com/85235525/147496339-89bc0428-8e2e-4fe9-8ec0-fc145e4d7127.png)
+
+Temos que:
+* _p_ é 1/4 ou 0.25
+* _k_ é 3
+* _n_ é 6
+* 
+![image](https://user-images.githubusercontent.com/85235525/147496603-711bb4a3-455c-4326-badd-a173a182d11c.png)
+![image](https://user-images.githubusercontent.com/85235525/147496627-716c756d-aeb8-4a98-b6a3-7dff0966882c.png)
+
+Nossa reposta bateu perfeitamente com o execício proposto pelo professor.
+
+# Projetos futuros:
+
+Em projetos futuros pretendo incluir os eventos binomiais cumulativos.
 
 
-Vamos ao que interessa, o projeto.
+
+
